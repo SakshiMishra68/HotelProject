@@ -68,7 +68,7 @@ const OurBrands = () => {
       key={brand.name}
       className="relative group bg-white shadow-lg rounded-lg overflow-hidden"
     >
-      {/* Brand Image */}
+    
       <div className="relative h-48 overflow-hidden">
         <img
           src={brand.img}
@@ -78,12 +78,12 @@ const OurBrands = () => {
         <div className="absolute inset-0 bg-black bg-opacity-40 transition-opacity duration-300 group-hover:bg-opacity-60"></div>
       </div>
 
-      {/* Brand Content */}
+      
       <div className="p-6">
         <h3 className="text-2xl font-bold text-gray-800 mb-2">{brand.name}</h3>
         <p className="text-sm text-gray-600 mb-4">{brand.description}</p>
 
-        {/* Features List */}
+        
         <ul className="space-y-2">
           {brand.features.map((feature, index) => (
             <li
@@ -109,13 +109,13 @@ const OurBrands = () => {
           ))}
         </ul>
 
-        {/* Call-to-Action */}
+      
         <button className="mt-6 px-4 py-2 bg-green-600 text-white rounded-full shadow-md hover:bg-green-700 focus:ring-4 focus:ring-green-400">
           Learn More
         </button>
       </div>
 
-      {/* Hover Overlay for Interaction */}
+      
       <div className="absolute inset-0 bg-green-600 bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
         <p className="text-white text-lg font-semibold">Click to Explore</p>
       </div>
