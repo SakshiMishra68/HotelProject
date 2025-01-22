@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="top-0 w-full sticky z-20 font-macondo">
+    <nav className="top-0 w-full sticky z-20">
       <div className="bg-blend-darken backdrop-blur-md bg-white/30 border h-18 p-2 flex justify-between items-center shadow-sm shadow-gray-500">
         {/* Logo */}
         <a
